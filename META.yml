@@ -1,9 +1,10 @@
 --- #YAML:1.0
 name:               Module-Starter-Plugin-Attanium
-version:            0.001
-abstract:           ~
-author:  []
-license:            unknown
+version:            0.002
+abstract:           Development tools for Attanium
+author:
+    - Gordon Van Amburg
+license:            perl
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0

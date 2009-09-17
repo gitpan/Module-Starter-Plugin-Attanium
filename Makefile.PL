@@ -3,6 +3,8 @@ use ExtUtils::MakeMaker;
 
 
 WriteMakefile(
+    AUTHOR => 'Gordon Van Amburg',
+    ABSTRACT => 'Development tools for Attanium',
     NAME         => 'Module::Starter::Plugin::Attanium',
     VERSION_FROM => 'lib/Module/Starter/Plugin/Attanium.pm',   # finds \$VERSION
     PREREQ_PM  => {
@@ -25,5 +27,5 @@ WriteMakefile(
     INSTALLDIRS => 'site',
     PL_FILES    => {},
     EXE_FILES => ['scripts/attanium-starter.pl'],
-    
+    LICENSE => 'perl',
     );
