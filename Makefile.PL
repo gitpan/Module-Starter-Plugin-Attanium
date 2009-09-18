@@ -16,6 +16,8 @@ WriteMakefile(
 	'File::Slurp'                 => 0,
 	'HTML::Template'              => 0,
 	'Module::Signature'           => 0,
+        'Module::Starter'             => 1.52,
+        'Module::Starter::Plugin::Template' => 1.52,
 	'Test::WWW::Mechanize::CGIApp'=> 0,
 	'Module::Starter'             => 0,
 	'Pod::Coverage'               => '0.18',

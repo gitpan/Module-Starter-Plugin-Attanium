@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Module-Starter-Plugin-Attanium
-version:            0.002
+version:            0.003
 abstract:           Development tools for Attanium
 author:
     - Gordon Van Amburg
@@ -20,6 +20,7 @@ requires:
     HTML::Template:       0
     Module::Signature:    0
     Module::Starter:      0
+    Module::Starter::Plugin::Template:  1.52
     Pod::Coverage:        0.18
     Pod::Usage:           0
     Test::More:           0

@@ -1,6 +1,12 @@
 #!/usr/bin/perl
 
+=head1 NAME
+
+  create_controller.pl 
+
 =head2 SYNOPSYS
+
+This is a template use to generate a project specific helper script. Once generated the usage is as follows:
 
     cd $PROJECT_ROOT_DIRECTORY
     

@@ -4,7 +4,14 @@ use warnings;
 use FindBin qw/$Bin/;
 use DBIx::Class::Schema::Loader qw/ make_schema_at /;
 
+=head1 NAME
+  
+  create_dbic_schema.pl
+
+
 =head1 SYNOPSIS
+
+This is a template used to generate a project specific helper script.  Once generated, the usage and output are as follows:
 
 
     ~/tmp$ attanium-starter.pl --module=MyApp1 \
