@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     AUTHOR => 'Gordon Van Amburg',
-    ABSTRACT => 'Development tools for Attanium',
+    ABSTRACT => 'Obsolete: use CGI::Application::Structured::Tools',
     NAME         => 'Module::Starter::Plugin::Attanium',
     VERSION_FROM => 'lib/Module/Starter/Plugin/Attanium.pm',   # finds \$VERSION
     PREREQ_PM  => {
@@ -14,10 +14,11 @@ WriteMakefile(
 	'File::Spec'                  => 0,
 	'FindBin'                     => 0,
 	'File::Slurp'                 => 0,
+	'Module::Starter'             => 1.50,
+        'Module::Starter::Simple'     => 1.50,
+        'Module::Starter::Plugin::Template' => 1.50,
 	'HTML::Template'              => 0,
 	'Module::Signature'           => 0,
-        'Module::Starter'             => 1.52,
-        'Module::Starter::Plugin::Template' => 1.52,
 	'Test::WWW::Mechanize::CGIApp'=> 0,
 	'Module::Starter'             => 0,
 	'Pod::Coverage'               => '0.18',
